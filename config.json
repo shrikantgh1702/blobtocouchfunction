@@ -1,0 +1,18 @@
+{
+	"couchbase_config": {
+		"user_name": "Test",
+		"password": "General@123",
+		"connection_url": "couchbases://cb.t7ufhy7jyraytxqp.cloud.couchbase.com",
+		"bucket_name": "Blob2CouchTest1",
+		"scope_name": "TitanicScope"
+
+	},
+
+	"azure_blob_config": {
+		"connection_string": "DefaultEndpointsProtocol=https;AccountName=datainputgeneral;AccountKey=KLLmjhZ2d50zkfj6RwLlC/RS/9uX2jRL7WdsMYxf1gJYWXy3T/apcRnvMR3xUx0ZPb0n0PInWEDx+AStpv/5ug==;EndpointSuffix=core.windows.net",
+		"input_container": "input",
+		"output_container": "output",
+		"discard_container": "discard"
+	}
+
+}
